@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Big O Notation & Data Structures</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Big O Notation & Data Structures</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#big-o">Big O</a></li>
+                <li><a href="#data-structures">Data Structures</a></li>
+                <li><a href="#visualizations">Visualizations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="big-o" class="section">
+        <h2 class="section-title">What is Big O Notation?</h2>
+        <p class="section-text">Big O notation is a mathematical notation used to describe the performance or complexity of an algorithm. It helps us understand how an algorithm scales with the size of the input.</p>
+        <div class="complexity-list">
+            <ul>
+                <li><span class="complexity-type">O(1)</span> - Constant Time</li>
+                <li><span class="complexity-type">O(log n)</span> - Logarithmic Time</li>
+                <li><span class="complexity-type">O(n)</span> - Linear Time</li>
+                <li><span class="complexity-type">O(n log n)</span> - Log Linear Time</li>
+                <li><span class="complexity-type">O(n²)</span> - Quadratic Time</li>
+                <li><span class="complexity-type">O(2ⁿ)</span> - Exponential Time</li>
+                <li><span class="complexity-type">O(n!)</span> - Factorial Time</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="data-structures" class="section">
+        <h2 class="section-title">Common Data Structures</h2>
+        <p class="section-text">Data structures are the building blocks of algorithms. They allow data to be organized and manipulated efficiently.</p>
+        <div class="structure-list">
+            <ul>
+                <li>Arrays</li>
+                <li>Linked Lists</li>
+                <li>Stacks</li>
+                <li>Queues</li>
+                <li>Trees</li>
+                <li>Graphs</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="visualizations" class="section">
+        <h2 class="section-title">Algorithm Visualizations</h2>
+        <p class="section-text">Explore visual representations of common algorithms and their time complexities.</p>
+        <button class="visualize-button" onclick="showVisualization()">Show Visualization</button>
+        <div id="visualization"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Big O Notation & Data Structures</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
